@@ -5,10 +5,11 @@ A comprehensive software package for advanced deconvolution and reconstruction o
 ## 📦 Repository Contents
 
 *   **`/src_Hybrid/`**: Core source code directory containing all Python (`.py`) and compiled module (`.pyd`) files for various reconstruction algorithms (Hessian, Sparse, TDV, etc.), optical models, and utilities.
+*   **`/src_Hybrid/src_model/`**: Pre-trained model files (`.pth`) for different microscopy modalities.
 *   **`Launch.py`**: The main script to launch the software interface.
 *   **`requirements.txt`**: List of Python dependencies.
 *   **`Hybrid Deconvolution Software Handbook.pdf`**: Complete user manual with detailed installation, configuration, and usage instructions.
-*   **`/src_Hybrid/src_model/`**: Pre-trained model files (`.pth`) for different microscopy modalities.
+
 
 ## ⚡ Quick Start Guide
 
