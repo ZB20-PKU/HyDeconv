@@ -8,7 +8,7 @@ A comprehensive software package for advanced deconvolution and reconstruction o
 *   **`Launch.py`**: The main script to launch the software interface.
 *   **`requirements.txt`**: List of Python dependencies.
 *   **`Hybrid Deconvolution Software Handbook.pdf`**: Complete user manual with detailed installation, configuration, and usage instructions.
-*   **`/src_model/`**: Pre-trained model files (`.pth`) for different microscopy modalities.
+*   **`/src_Hybrid/src_model/`**: Pre-trained model files (`.pth`) for different microscopy modalities.
 
 ## ⚡ Quick Start Guide
 
