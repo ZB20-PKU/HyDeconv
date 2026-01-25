@@ -35,8 +35,8 @@ After extracting correctly, your project folder structure should look like this:
 ```bash
 Hybrid-Deconvolution-Software/
 ├── Hybrid Deconvolution Software Handbook.pdf
+├── requirements.txt
 ├── Launch.py
-├── README.md
 ├── src_Hybrid/
 ├── Demo_training_SIM/       # Extracted from `Demo_training.zip`
 ├── Demo_training_STED/      # Extracted from `Demo_training.zip`
