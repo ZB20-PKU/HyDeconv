@@ -28,7 +28,7 @@ The software requires specific training and reconstruction data to function:
 
 Download the `.zip` files from [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c).
 
-Extract them into the root directory of this cloned project.
+Extract them into the **root directory** of this cloned project.
 
 **Important:** When extracting the `.zip` files, ensure you select **"Extract Here"** (or equivalent) so that the files and folders are created directly in the project root. Do not extract into a new folder named after the `.zip` file.
 
@@ -39,16 +39,16 @@ Hybrid-Deconvolution-Software/
 ├── requirements.txt
 ├── Launch.py
 ├── src_Hybrid/
-├── Demo_training_SIM/       # Extracted from `Demo_training.zip`
-├── Demo_training_STED/      # Extracted from `Demo_training.zip`
-├── Demo_training_MPM/       # Extracted from `Demo_training.zip`
-├── Demo_training_CSDM/      # Extracted from `Demo_training.zip`
-├── Demo_training_WFM/       # Extracted from `Demo_training.zip`
-├── Demo_Recon_SIM.tif       # Extracted from `Demo_Recon.zip`
-├── Demo_Recon_STED.tif      # Extracted from `Demo_Recon.zip`
-├── Demo_Recon_MPM.tif       # Extracted from `Demo_Recon.zip`
-├── Demo_Recon_CSDM.tif      # Extracted from `Demo_Recon.zip`
-├── Demo_Recon_WFM.tif       # Extracted from `Demo_Recon.zip`
+├── Demo_training_SIM/       # Extracted folder from `Demo_training.zip`
+├── Demo_training_STED/      # Extracted folder from `Demo_training.zip`
+├── Demo_training_MPM/       # Extracted folder from `Demo_training.zip`
+├── Demo_training_CSDM/      # Extracted folder from `Demo_training.zip`
+├── Demo_training_WFM/       # Extracted folder from `Demo_training.zip`
+├── Demo_Recon_SIM.tif       # Extracted file from `Demo_Recon.zip`
+├── Demo_Recon_STED.tif      # Extracted file from `Demo_Recon.zip`
+├── Demo_Recon_MPM.tif       # Extracted file from `Demo_Recon.zip`
+├── Demo_Recon_CSDM.tif      # Extracted file from `Demo_Recon.zip`
+├── Demo_Recon_WFM.tif       # Extracted file from `Demo_Recon.zip`
 └── ...
 ```
 
