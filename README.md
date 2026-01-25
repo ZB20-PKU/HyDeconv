@@ -13,14 +13,14 @@ A comprehensive software package for advanced deconvolution and reconstruction o
 
 ## ⚡ Quick Start Guide
 
-### 1. Get the Code
+### 1. Get Software Code
 Clone this repository to your local machine and navigate into the project directory:
 ```bash
 git clone https://github.com/ZB20-PKU/Hybrid-Deconvolution-Software.git
 cd Hybrid-Deconvolution-Software
 ```
 
-### 2. Download Required Data (Figshare)
+### 2. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
 
 Download the `.zip` files from the figshare link below.
