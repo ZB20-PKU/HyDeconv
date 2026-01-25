@@ -1,12 +1,14 @@
 # Hybrid Deconvolution Software
 
-A comprehensive software package for advanced deconvolution and reconstruction of microscopy images (e.g., SIM, STED, WFM, MPM, CSDM). This repository contains the core source code, pre-trained models, and launch scripts.
+A comprehensive software package for resolution enhancement of multiple fluorescence microscopy modalities, including Structured Illumination Microscopy (SIM), Stimulated Emission Depletion microscopy (STED), Multi-Photon Microscopy (MPM), Confocal Scanning Microscopy (CSDM), and Wide-Field Microscopy (WFM).
+
+This repository contains the core source code, pre-trained models, and launch scripts.
 
 ## 📦 Repository Contents
 
 *   **`/src_Hybrid/`**: Core source code directory containing all Python (`.py`) and compiled module (`.pyd`) files for various reconstruction algorithms (Hessian, Sparse, TDV, etc.), optical models, and utilities.
 *   **`/src_Hybrid/src_model/`**: Pre-trained model files (`.pth`) for different microscopy modalities.
-*   **`Launch.py`**: The main script to launch the software interface.
+*   **`Launch.py`**: The main script to launch the software graphical user interface (GUI).
 *   **`requirements.txt`**: List of Python dependencies.
 *   **`Hybrid Deconvolution Software Handbook.pdf`**: Complete handbook with detailed installation, operation, and configuration instructions.
 
