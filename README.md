@@ -19,17 +19,16 @@ This repository contains the core source code, pre-trained models, and launch sc
 Clone this repository to your local machine and navigate into the project directory:
 ```bash
 git clone https://github.com/ZB20-PKU/Hybrid-Deconvolution-Software.git
+
 cd Hybrid-Deconvolution-Software
 ```
 
 ### 2. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
 
-Download the `.zip` files from the figshare link below.
+Download the `.zip` files from the figshare link: [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c)
 
 Extract them into the root directory of this cloned project.
-
-**Data Link:** [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c)
 
 **Important:** When extracting the `.zip` files, ensure you select **"Extract Here"** (or equivalent) so that the files and folders are created directly in the project root. Do not extract into a new folder named after the `.zip` file.
 
