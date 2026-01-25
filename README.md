@@ -15,7 +15,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 
 ## ⚡ Quick Start Guide
 
-### 1. Get Software Code
+### 1. Download Software Code
 Clone this repository to your local machine and navigate into the project directory:
 ```bash
 git clone https://github.com/ZB20-PKU/Hybrid-Deconvolution-Software.git
