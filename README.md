@@ -26,7 +26,7 @@ cd Hybrid-Deconvolution-Software
 ### 2. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
 
-Download the `.zip` files from [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c)
+Download the `.zip` files from [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c).
 
 Extract them into the root directory of this cloned project.
 
