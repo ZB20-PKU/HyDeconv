@@ -1,6 +1,7 @@
 # Hybrid Deconvolution Software
 
 A comprehensive software package for the resolution enhancement of multiple fluorescence microscopy modalities, including Structured Illumination Microscopy (SIM), Stimulated Emission Depletion microscopy (STED), Multiphoton Microscopy (MPM), Confocal Spinning Disk Microscopy (CSDM), and Wide-Field Microscopy (WFM). 
+
 This repository contains the core source code, pre-trained models, and launch scripts.
 
 ## 📦 Repository Contents
