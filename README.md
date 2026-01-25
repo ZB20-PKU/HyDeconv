@@ -32,7 +32,6 @@ Extract them into the root directory of this cloned project.
 **Important:** When extracting the `.zip` files, ensure you select **"Extract Here"** (or equivalent) so that the files and folders are created directly in the project root. Do not extract into a new folder named after the `.zip` file.
 
 After extracting correctly, your project folder structure should look like this:
-...
 ```bash
 Hybrid-Deconvolution-Software/
 ├── Hybrid Deconvolution Software Handbook.pdf
