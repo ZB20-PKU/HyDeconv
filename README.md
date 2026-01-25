@@ -22,14 +22,16 @@ cd Hybrid-Deconvolution-Software
 ### 2. Download Required Data (Figshare)
 The software requires specific training and reconstruction data to function:
 
-Download the ZIP files from the figshare link below.
+Download the `.zip` files from the figshare link below.
 
 Extract them into the root directory of this cloned project.
 
-Data Link: https://figshare.com/s/c6987ed1e5cd40e9f66c
+**Data Link:** [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c)
 
-After downloading and extracting, your project folder structure should look like this:
+**Important:** When extracting the `.zip` files, ensure you select **"Extract Here"** (or equivalent) so that the files and folders are created directly in the project root. Do not extract into a new folder named after the `.zip` file.
 
+After extracting correctly, your project folder structure should look like this:
+...
 ```bash
 Hybrid-Deconvolution-Software/
 ├── Hybrid Deconvolution Software Handbook.pdf
