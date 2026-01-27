@@ -15,15 +15,26 @@ This repository contains the core source code, pre-trained models, and launch sc
 
 ## ⚡ Quick Start Guide
 
-### 1. Download Software Code
-Clone this repository to your local machine and navigate into the project directory:
+### 1. Install Anaconda
+Download and install Anaconda from [https://www.anaconda.com](https://www.anaconda.com)
+
+### 2. Download Software Code
+Open a terminal (or Anaconda Prompt), clone this repository to your local machine and navigate into the project directory:
 ```bash
 git clone https://github.com/ZB20-PKU/HyDeconv.git
-
 cd HyDeconv
 ```
 
-### 2. Download Demonstration Data
+### 3. Set Up Conda Environment and Install Dependencies
+Run the following commands:
+```bash
+conda create -n Hybrid_Deconvolution python=3.7 –y
+conda activate Hybrid_Deconvolution
+conda install cudatoolkit=11.6
+pip install -r requirements.txt
+```
+
+### 3. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
 
 Download the `.zip` files from [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c).
@@ -51,6 +62,10 @@ HyDeconv/
 ├── Demo_Recon_WFM.tif       # Extracted file from `Demo_Recon.zip`
 └── ...
 ```
+
+### 4. Set Up Conda Environment and Install Dependencies
+Open a terminal (or Anaconda Prompt) and navigate to the root directory of the project. Then run the following commands:
+
 
 ## 📖 Detailed Documentation
 For full instructions on software installation, operation, and configuration, please refer to the handbook:
