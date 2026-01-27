@@ -64,8 +64,13 @@ HyDeconv/
 ```
 
 ### 5. Launch the Software
-With the conda environment activated and navigate into the project directory, run the following commands:
+With the Conda environment activated and in the software project directory, run the following commands:
 ```bash
+python Launch.py
+```
+For subsequent launches, you only need to run these two commands from the software root directory:
+```bash
+conda activate Hybrid_Deconvolution
 python Launch.py
 ```
 
