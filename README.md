@@ -64,8 +64,10 @@ HyDeconv/
 ```
 
 ### 5. Launch the Software
-With the conda environment activated and ,
-
+With the conda environment activated and navigate into the project directory, run the following commands:
+```bash
+python Launch.py
+```
 
 ## 📖 Detailed Documentation
 For full instructions on software installation, operation, and configuration, please refer to the handbook:
