@@ -42,7 +42,7 @@ Download the `.zip` files from [https://figshare.com/s/c6987ed1e5cd40e9f66c](htt
 
 Extract them into the software root directory.
 
-**Important:** When extracting the `.zip` files, ensure you select **"Extract Here"** (or equivalent) so that the files and folders are created directly in the project root. Do not extract into a new folder named after the `.zip` file.
+**Important:** When extracting the `.zip` files, ensure you select **"Extract Here"** (or equivalent) so that the files and folders are created directly in the software root directory. Do not extract into a new folder named after the `.zip` file.
 
 After extracting correctly, your project folder structure should look like this:
 ```bash
