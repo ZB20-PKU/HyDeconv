@@ -34,7 +34,7 @@ Extract them into the **root directory** of this cloned project.
 
 After extracting correctly, your project folder structure should look like this:
 ```bash
-Hybrid-Deconvolution-Software/
+HyDeconv/
 ├── HyDeconv_Handbook.pdf
 ├── requirements.txt
 ├── Launch.py
