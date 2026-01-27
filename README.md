@@ -1,4 +1,4 @@
-# Hybrid Deconvolution Software
+# HyDeconv: Hybrid Deconvolution Software
 
 A comprehensive software package for the resolution enhancement of multiple fluorescence microscopy modalities, including Structured Illumination Microscopy (SIM), Stimulated Emission Depletion microscopy (STED), Multiphoton Microscopy (MPM), Confocal Spinning Disk Microscopy (CSDM), and Wide-Field Microscopy (WFM). 
 
@@ -18,9 +18,9 @@ This repository contains the core source code, pre-trained models, and launch sc
 ### 1. Download Software Code
 Clone this repository to your local machine and navigate into the project directory:
 ```bash
-git clone https://github.com/ZB20-PKU/Hybrid-Deconvolution-Software.git
+git clone https://github.com/ZB20-PKU/HyDeconv.git
 
-cd Hybrid-Deconvolution-Software
+cd HyDeconv
 ```
 
 ### 2. Download Demonstration Data
