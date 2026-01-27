@@ -39,7 +39,7 @@ The software requires specific training and reconstruction data to function:
 
 Download the `.zip` files from [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c).
 
-Extract them into the **software root directory**.
+Extract them into the software root directory.
 
 **Important:** When extracting the `.zip` files, ensure you select **"Extract Here"** (or equivalent) so that the files and folders are created directly in the project root. Do not extract into a new folder named after the `.zip` file.
 
@@ -68,7 +68,7 @@ With the conda environment activated and in the software root directory, run the
 ```bash
 python Launch.py
 ```
-For subsequent launches, you only need to **run these two commands** from the software root directory:
+For subsequent launches, you only need to run these two commands from the software root directory:
 ```bash
 conda activate Hybrid_Deconvolution
 python Launch.py
