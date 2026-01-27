@@ -68,7 +68,7 @@ With the conda environment activated and in the software root directory, run the
 ```bash
 python Launch.py
 ```
-For subsequent launches, you only need to run these two commands from the software root directory:
+For subsequent launches, run the following commands from the software root directory:
 ```bash
 conda activate Hybrid_Deconvolution
 python Launch.py
