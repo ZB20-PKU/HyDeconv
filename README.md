@@ -25,7 +25,7 @@ git clone https://github.com/ZB20-PKU/HyDeconv.git
 cd HyDeconv
 ```
 
-### 3. Set Up Conda Environment and Install Dependencies
+### 3. Create Conda Environment and Install Dependencies
 Run the following commands:
 ```bash
 conda create -n Hybrid_Deconvolution python=3.7 –y
@@ -34,7 +34,7 @@ conda install cudatoolkit=11.6
 pip install -r requirements.txt
 ```
 
-### 3. Download Demonstration Data
+### 4. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
 
 Download the `.zip` files from [https://figshare.com/s/c6987ed1e5cd40e9f66c](https://figshare.com/s/c6987ed1e5cd40e9f66c).
@@ -63,8 +63,8 @@ HyDeconv/
 └── ...
 ```
 
-### 4. Set Up Conda Environment and Install Dependencies
-Open a terminal (or Anaconda Prompt) and navigate to the root directory of the project. Then run the following commands:
+### 5. Launch the Software
+With the conda environment activated and ,
 
 
 ## 📖 Detailed Documentation
