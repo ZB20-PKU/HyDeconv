@@ -19,7 +19,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 Download and install Anaconda from [https://www.anaconda.com](https://www.anaconda.com)
 
 ### 2. Download Software Code
-Open a terminal (or Anaconda Prompt), clone this repository to your local machine and navigate into the project directory:
+Open a terminal (or Anaconda Prompt), clone this repository to your local machine and navigate into the software root directory:
 ```bash
 git clone https://github.com/ZB20-PKU/HyDeconv.git
 cd HyDeconv
@@ -64,11 +64,11 @@ HyDeconv/
 ```
 
 ### 5. Launch the Software
-With the Conda environment activated and in the software project directory, run the following commands:
+With the conda environment activated and in the software root directory, run the following commands:
 ```bash
 python Launch.py
 ```
-For subsequent launches, you only need to run these two commands from the software root directory:
+For subsequent launches, you only need to **run these two commands** from the software root directory:
 ```bash
 conda activate Hybrid_Deconvolution
 python Launch.py
