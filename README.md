@@ -16,7 +16,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 ## ⚡ Quick Start Guide
 
 ### 1. Install Anaconda
-Download and install Anaconda from [https://www.anaconda.com](https://www.anaconda.com)
+Download and install Anaconda from [https://www.anaconda.com](https://www.anaconda.com).
 
 ### 2. Download Software Code
 Open a terminal (or Anaconda Prompt), clone this repository to your local machine and navigate into the software root directory, by running the following commands:
@@ -33,6 +33,7 @@ conda activate Hybrid_Deconvolution
 conda install cudatoolkit=11.6
 pip install -r requirements.txt
 ```
+**Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary.
 
 ### 4. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
