@@ -15,8 +15,10 @@ This repository contains the core source code, pre-trained models, and launch sc
 
 ## ⚡ Quick Start Guide
 
-### 1. Install Anaconda
-Download and install Anaconda from [https://www.anaconda.com](https://www.anaconda.com).
+### 1. Install Anaconda and Fiji
+Download and install Anaconda from [https://www.anaconda.com/download](https://www.anaconda.com/download).
+
+Download and install Fiji from [https://imagej.net/software/fiji](https://imagej.net/software/fiji).
 
 ### 2. Download Software Code
 Open a Command Prompt (or Anaconda Prompt), clone this repository to your local machine, and navigate into the software root directory, by running the following commands:
