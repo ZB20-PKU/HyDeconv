@@ -6,10 +6,10 @@ This repository contains the core source code, pre-trained models, and launch sc
 
 ## 📦 Repository Contents
 
-*   **`/src_Hybrid/`**: Core source code directory containing all Python (`.py`) and compiled module (`.pyd`) files for various reconstruction algorithms (Hessian, Sparse, TDV, etc.), optical models, and utilities.
-*   **`/src_Hybrid/src_model/`**: Pre-trained model files (`.pth`) for different microscopy modalities.
+*   **`/src_Hybrid/`**: Core source code directory containing all Python (`.py`) and compiled module (`.pyd`) files.
+*   **`/src_Hybrid/src_model/`**: Pre-trained deep learning model files (`.pth`) for different microscopy modalities.
 *   **`Launch.py`**: The main script to launch the software graphical user interface (GUI).
-*   **`requirements.txt`**: List of Python dependencies.
+*   **`requirements.txt`**: A list of required Python packages.
 *   **`HyDeconv_Handbook.pdf`**: Complete handbook with detailed operation and configuration instructions.
 
 
