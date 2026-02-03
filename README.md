@@ -20,7 +20,7 @@ Download and install Anaconda from [https://www.anaconda.com/download](https://w
 **Important:** Please ensure Anaconda is added to your system's PATH environment variable.
 
 ### 2. Create Conda Environment and Install Dependencies
-Open a Command Prompt (or Anaconda Prompt) and run the following commands:
+Open the Command Prompt and run the following commands:
 ```bash
 conda create -n Hybrid_Deconvolution python=3.7 –y
 conda activate Hybrid_Deconvolution
@@ -36,6 +36,11 @@ cd HyDeconv
 pip install -r requirements.txt
 conda install cudatoolkit=11.6 -c conda-forge
 ```
+**Important:** If any package during the pip install process reports an error like "Microsoft Visual C++ 14.0 or greater is required", you will need to install the Microsoft C++ Build Tools. Please:
+1. Visit the [Visual Studio Downloads page](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/).
+2. Download and run the "Visual Studio Build Tools" installer.
+3. In the workload selection interface, check the box for "Desktop development with C++" and proceed with the installation.
+4. After installation, restart your computer for the changes to take effect, then re-run the **pip install** command above.
 
 ### 4. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
