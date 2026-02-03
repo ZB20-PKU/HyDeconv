@@ -40,7 +40,7 @@ conda install cudatoolkit=11.6 -c conda-forge
 1. Visit the [Visual Studio Downloads page](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 2. Download and run the "Visual Studio Build Tools" installer.
 3. In the workload selection interface, check the box for "Desktop development with C++" and proceed with the installation.
-4. A system restart may be required. Afterwards, re-run the `pip install` command above.
+4. A system restart may be required. Then, re-run the `pip install` command above.
 
 ### 4. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
