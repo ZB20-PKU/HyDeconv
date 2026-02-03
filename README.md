@@ -17,6 +17,13 @@ This repository contains the core source code, pre-trained models, and launch sc
 ### 1. Install Anaconda
 Download and install Anaconda from [https://www.anaconda.com/download](https://www.anaconda.com/download).
 
+**Important:** After installation, ensure Anaconda is added to your system's PATH environment variable. This allows you to use conda commands directly from the Command Prompt. If you encounter the error "'conda' is not recognized as an internal or external command", you can use Anaconda Prompt (included with Anaconda) instead of regular Command Prompt, or manually add Anaconda to your system PATH by including these directories (adjust path as needed):
+```bash
+C:\Users\[YourUsername]\anaconda3
+C:\Users\[YourUsername]\anaconda3\Scripts
+C:\Users\[YourUsername]\anaconda3\Library\bin
+```
+
 ### 2. Create Conda Environment and Install Dependencies
 Open a Command Prompt (or Anaconda Prompt) and run the following commands:
 ```bash
@@ -32,7 +39,7 @@ Clone this repository to your local machine and navigate into the software root 
 git clone https://github.com/ZB20-PKU/HyDeconv.git
 cd HyDeconv
 pip install -r requirements.txt
-conda install cudatoolkit=11.6
+conda install cudatoolkit=11.6 -c conda-forge
 ```
 
 ### 4. Download Demonstration Data
