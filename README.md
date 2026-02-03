@@ -76,7 +76,7 @@ For the first launches, run the following command:
 ```bash
 python Launch.py
 ```
-For subsequent launches, run the following commands from the software root directory:
+For subsequent launches, run the following commands:
 ```bash
 conda activate Hybrid_Deconvolution
 cd HyDeconv
