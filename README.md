@@ -17,9 +17,9 @@ This repository contains the core source code, pre-trained models, and launch sc
 ### 1. Install Anaconda
 Download and install Anaconda from [https://www.anaconda.com/download](https://www.anaconda.com/download).
 
-**Important:** Please ensure Anaconda is added to your system's PATH environment variable.
+**Important:** Please ensure **Anaconda is added to your system's PATH environment variable** during installation.
 
-### 2. Create Conda Environment and Install Dependencies
+### 2. Create Conda Environment
 Open the Command Prompt and run the following commands:
 ```bash
 conda create -n Hybrid_Deconvolution python=3.7 –y
@@ -28,19 +28,19 @@ conda install git=2.51.0
 ```
 **Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary.
 
-### 3. Download Software Code
-Clone this repository to your local machine and navigate into the software root directory, by running the following commands:
+### 3. Download Software Code and Install Dependencies
+Run the following commands to clone the repository and install all required dependencies:
 ```bash
 git clone https://github.com/ZB20-PKU/HyDeconv.git
 cd HyDeconv
 pip install -r requirements.txt
 conda install cudatoolkit=11.6 -c conda-forge
 ```
-**Important:** If any package during the pip install process reports an error like "Microsoft Visual C++ 14.0 or greater is required", you will need to install the Microsoft C++ Build Tools:
+**Important:** If any package during the `pip install` process reports an error like "Microsoft Visual C++ 14.0 or greater is required", you will need to install the **Microsoft C++ Build Tools**:
 1. Visit the [Visual Studio Downloads page](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 2. Download and run the "Visual Studio Build Tools" installer.
 3. In the workload selection interface, check the box for "Desktop development with C++" and proceed with the installation.
-4. After installation, restart your computer for the changes to take effect, then re-run the `pip install` command above.
+4. A system restart may be required. Afterwards, re-run the `pip install` command above.
 
 ### 4. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
