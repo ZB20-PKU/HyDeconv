@@ -36,11 +36,11 @@ cd HyDeconv
 pip install -r requirements.txt
 conda install cudatoolkit=11.6 -c conda-forge
 ```
-**Important:** If any package during the pip install process reports an error like "Microsoft Visual C++ 14.0 or greater is required", you will need to install the Microsoft C++ Build Tools. Please:
+**Important:** If any package during the pip install process reports an error like "Microsoft Visual C++ 14.0 or greater is required", you will need to install the Microsoft C++ Build Tools:
 1. Visit the [Visual Studio Downloads page](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/).
 2. Download and run the "Visual Studio Build Tools" installer.
 3. In the workload selection interface, check the box for "Desktop development with C++" and proceed with the installation.
-4. After installation, restart your computer for the changes to take effect, then re-run the **pip install** command above.
+4. After installation, restart your computer for the changes to take effect, then re-run the `pip install` command above.
 
 ### 4. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
