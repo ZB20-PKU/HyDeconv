@@ -18,7 +18,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 Download and install Anaconda from [https://www.anaconda.com/download](https://www.anaconda.com/download).
 
 ### 2. Create Conda Environment and Install Dependencies
-Run the following commands:
+Open a Command Prompt (or Anaconda Prompt) and run the following commands:
 ```bash
 conda create -n Hybrid_Deconvolution python=3.7 –y
 conda activate Hybrid_Deconvolution
@@ -27,7 +27,7 @@ conda install cudatoolkit=11.6
 **Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary.
 
 ### 3. Download Software Code
-Open a Command Prompt (or Anaconda Prompt), clone this repository to your local machine, and navigate into the software root directory, by running the following commands:
+Clone this repository to your local machine and navigate into the software root directory, by running the following commands:
 ```bash
 git clone https://github.com/ZB20-PKU/HyDeconv.git
 cd HyDeconv
