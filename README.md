@@ -22,7 +22,6 @@ Open a Command Prompt (or Anaconda Prompt) and run the following commands:
 ```bash
 conda create -n Hybrid_Deconvolution python=3.7 –y
 conda activate Hybrid_Deconvolution
-conda install cudatoolkit=11.6
 conda install git=2.51.0
 ```
 **Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary.
@@ -33,6 +32,7 @@ Clone this repository to your local machine and navigate into the software root 
 git clone https://github.com/ZB20-PKU/HyDeconv.git
 cd HyDeconv
 pip install -r requirements.txt
+conda install cudatoolkit=11.6
 ```
 
 ### 4. Download Demonstration Data
