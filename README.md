@@ -17,12 +17,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 ### 1. Install Anaconda
 Download and install Anaconda from [https://www.anaconda.com/download](https://www.anaconda.com/download).
 
-**Important:** After installation, ensure Anaconda is added to your system's PATH environment variable. This allows you to use conda commands directly from the Command Prompt. If you encounter the error "'conda' is not recognized as an internal or external command", you can use Anaconda Prompt (included with Anaconda) instead of regular Command Prompt, or manually add Anaconda to your system PATH by including these directories (adjust path as needed):
-```bash
-C:\Users\[YourUsername]\anaconda3
-C:\Users\[YourUsername]\anaconda3\Scripts
-C:\Users\[YourUsername]\anaconda3\Library\bin
-```
+**Important:** Please ensure Anaconda is added to your system's PATH environment variable.
 
 ### 2. Create Conda Environment and Install Dependencies
 Open a Command Prompt (or Anaconda Prompt) and run the following commands:
