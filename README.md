@@ -23,6 +23,7 @@ Open a Command Prompt (or Anaconda Prompt) and run the following commands:
 conda create -n Hybrid_Deconvolution python=3.7 –y
 conda activate Hybrid_Deconvolution
 conda install cudatoolkit=11.6
+conda install git=2.51.0
 ```
 **Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary.
 
