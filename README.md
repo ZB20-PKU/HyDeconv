@@ -17,7 +17,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 ### 1. Install Anaconda
 Download and install Anaconda from [https://www.anaconda.com/download](https://www.anaconda.com/download).
 
-**Important:** Please select the option to **add Anaconda to your system** `PATH` **environment variable** during installation.
+**Important:** Please select the option to **add Anaconda to the** `PATH` **environment variable** during installation.
 
 ### 2. Create Conda Environment
 Open the Command Prompt and run the following commands to create environment:
