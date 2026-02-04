@@ -72,7 +72,7 @@ HyDeconv/
 ```
 
 ### 5. Launch the Software
-For the first launches, run the following command:
+For the first launch, run the following command:
 ```bash
 python Launch.py
 ```
