@@ -17,7 +17,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 ### 1. Install Anaconda
 Download and install Anaconda from [https://www.anaconda.com/download](https://www.anaconda.com/download).
 
-**Important:** Please ensure **Anaconda is added to your system's PATH environment variable** during installation.
+**Important:** Please select the option to **add Anaconda to your system PATH environment variable** during installation.
 
 ### 2. Create Conda Environment
 Open the Command Prompt and run the following commands to create environment:
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 conda install cudatoolkit=11.6 -c conda-forge
 ```
 **Important:** Please ensure the versions of `cudatoolkit`, `cupy-cuda`, `torch`, `torchvision`, and `torchaudio` are compatible with the CUDA version installed on your system. Additionally, if `pip install` reports an error such as "Microsoft Visual C++ 14.0 or greater is required", you will need to install the **Microsoft C++ Build Tools**:
-1. Download the "Visual Studio Build Tools" installer from [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+1. Download the "Visual Studio Build Tools" installer from [https://visualstudio.microsoft.com/visual-cpp-build-tools](https://visualstudio.microsoft.com/visual-cpp-build-tools).
 2. Run the installer. In the "Workloads" tab, select "Desktop development with C++".
 3. Proceed with the installation. A system restart may be required afterwards.
 4. Once completed, re-run the `pip install -r requirements.txt` command above.
