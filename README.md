@@ -35,7 +35,7 @@ cd HyDeconv
 pip install -r requirements.txt
 conda install cudatoolkit=11.6 -c conda-forge
 ```
-**Important:** Please ensure the versions of `cudatoolkit`, `cupy-cuda`, `torch`, `torchvision`, and `torchaudio` are compatible with the CUDA version installed on your system. Additionally, if `pip install` reports an error such as "Microsoft Visual C++ 14.0 or greater is required", you will need to **install the Microsoft C++ Build Tools**:
+**Important:** Please ensure the versions of `cudatoolkit`, `cupy-cuda`, `torch`, `torchvision`, and `torchaudio` are compatible with the CUDA version installed on your system. Additionally, if `pip install` fails with an error such as "Microsoft Visual C++ 14.0 or greater is required", you will need to **install the Microsoft C++ Build Tools**:
 1. Download the "Visual Studio Build Tools" installer from [https://visualstudio.microsoft.com/visual-cpp-build-tools](https://visualstudio.microsoft.com/visual-cpp-build-tools).
 2. Run the installer. In the "Workloads" tab, select "Desktop development with C++".
 3. Proceed with the installation. A system restart may be required afterwards.
