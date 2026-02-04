@@ -24,7 +24,7 @@ Open the Command Prompt and run the following commands to create environment:
 ```bash
 conda create -n Hybrid_Deconvolution python=3.7 –y
 conda activate Hybrid_Deconvolution
-conda install git=2.51.0
+conda install git
 ```
 **Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary.
 
