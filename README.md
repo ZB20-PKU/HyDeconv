@@ -26,7 +26,6 @@ conda create -n Hybrid_Deconvolution python=3.7 –y
 conda activate Hybrid_Deconvolution
 conda install git
 ```
-**Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary.
 
 ### 3. Download Software Code and Install Dependencies
 Run the following commands to clone the repository and install all required dependencies:
@@ -36,7 +35,7 @@ cd HyDeconv
 pip install -r requirements.txt
 conda install cudatoolkit=11.6 -c conda-forge
 ```
-**Important:** If any package during the `pip install` process reports an error like "Microsoft Visual C++ 14.0 or greater is required", you will need to install the **Microsoft C++ Build Tools**:
+**Important:** Please adjust the versions of cudatoolkit, cupy-cuda, torch, torchvision, and torchaudio to match your specific GPU if necessary. Besides, if any package during the `pip install` process reports an error like "Microsoft Visual C++ 14.0 or greater is required", you will need to install the **Microsoft C++ Build Tools**:
 1. Visit the [Visual Studio Downloads page](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 2. Download and run the "Visual Studio Build Tools" installer.
 3. In the workload selection interface, check the box for "Desktop development with C++" and proceed with the installation.
