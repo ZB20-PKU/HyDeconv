@@ -665,6 +665,8 @@ class Sparse_deconvolution_FM:
         self.Sparse_offset = args.Sparse_offset
         # self.TDV = torch.from_numpy((args.tdv_result).astype(np.float64)).to(args.device)
         self.TDV = args.tdv_result.astype(np.float32)
+        if self.TDV.ndim == 2:
+            self.TDV = self.TDV[None, :]  # 等价于 expand_dims(axis=0) 
         self.Rolling_ball_radius = args.Rolling_ball_radius
         self.Rolling_ball_paraboloid_flag = args.Rolling_ball_paraboloid_flag
         

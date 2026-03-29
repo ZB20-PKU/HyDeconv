@@ -2373,13 +2373,13 @@ class TDVTrainingGUI(QMainWindow):
             },
             'SIM_Raw_pixel_size': {
                 'type': 'float',
-                'default': 65e-9,
+                'default': 43.33e-9,
                 'tooltip': 'Raw pixel size',
                 'unit': 'nm'
             },
             'SIM_Recon_OTF_path': {
                 'type': 'file',
-                'default': 'Simulation',
+                'default': './src_Hybrid/src_Optics/SIM_Recon_OTF_WL525_NA1.4_PSXY43.tif',
                 'tooltip': 'Path to Wiener OTF TIFF file'
             }
         }
@@ -2408,7 +2408,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Dataset_XY_block_interval': {
                 'type': 'int',
-                'default': 128,
+                'default': 90,
                 'tooltip': 'XY block interval for dataset generation',
                 'unit': 'pixel'
             },
@@ -2426,7 +2426,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Dataset_XY_minimal_heterogeneity': {
                 'type': 'float',
-                'default': 0.6,
+                'default': 0.4,
                 'tooltip': 'Minimum heterogeneity threshold for XY blocks'
             }
         }
@@ -2437,7 +2437,7 @@ class TDVTrainingGUI(QMainWindow):
         train_params = {
             'Train_system': {
                 'type': 'str',
-                'default': '100XSIM',
+                'default': '150XSIM',
                 'tooltip': 'System name for model identification'
             },            
             'Train_sample': {

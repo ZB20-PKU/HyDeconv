@@ -1168,7 +1168,7 @@ class SIMReconstructionGUI(QMainWindow):
             },
             'SIM_Recon_OTF_path': {
                 'type': 'file',
-                'default': 'Simulation',
+                'default': './src_Hybrid/src_Optics/SIM_Recon_OTF_WL525_NA1.4_PSXY43.tif',
                 'tooltip': 'Path to Wiener OTF TIFF file'
             }
         }
@@ -1225,7 +1225,7 @@ class SIMReconstructionGUI(QMainWindow):
             },
             'TDV_iteration_number': {
                 'type': 'int',
-                'default': 30,
+                'default': 10,
                 'tooltip': 'Number of TDV iterations'
             }
         }
@@ -1242,13 +1242,13 @@ class SIMReconstructionGUI(QMainWindow):
             },
             'Sparse_offset': {
                 'type': 'float',
-                'default': 0.2,
+                'default': 0.1,
                 'tooltip': 'Sparse deconvolution offset parameter',
                 'unit': ''
             },
             'Sparse_iteration_number': {
                 'type': 'int',
-                'default': 25,
+                'default': 20,
                 'tooltip': 'Number of sparse deconvolution iterations'
             }
         }

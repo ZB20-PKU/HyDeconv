@@ -1232,19 +1232,19 @@ class WFMReconstructionGUI(QMainWindow):
             },
             'TDV_offset': {
                 'type': 'float',
-                'default': 0.3,
+                'default': 0.1,
                 'tooltip': 'TDV offset parameter',
                 'unit': ''
             },
             'TDV_weight': {
                 'type': 'float',
-                'default': 0.15,
+                'default': 1,
                 'tooltip': 'TDV weight parameter',
                 'unit': ''
             },
             'TDV_iteration_number': {
                 'type': 'int',
-                'default': 30,
+                'default': 10,
                 'tooltip': 'Number of TDV iterations'
             }
         }

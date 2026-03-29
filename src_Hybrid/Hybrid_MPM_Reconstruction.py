@@ -1165,7 +1165,7 @@ class STEDReconstructionGUI(QMainWindow):
             },
             'TDV_fidelity': {
                 'type': 'float',
-                'default': 70,
+                'default': 100,
                 'tooltip': 'TDV fidelity parameter',
                 'unit': ''
             },
@@ -1183,7 +1183,7 @@ class STEDReconstructionGUI(QMainWindow):
             },
             'TDV_iteration_number': {
                 'type': 'int',
-                'default': 30,
+                'default': 10,
                 'tooltip': 'Number of TDV iterations'
             }
         }
@@ -2428,7 +2428,7 @@ class STEDReconstructionGUI(QMainWindow):
                             # 将Hessian减去Background
                             hessian_minus_background = hessian_frame - background_frame
                             # 确保没有负值
-                            hessian_minus_background = np.maximum(hessian_minus_background, 0)
+                            # hessian_minus_background = np.maximum(hessian_minus_background, 0)
                             stack_frames.append(hessian_minus_background)
                         
                         # 提取Hessian+TDV-Background帧
@@ -2444,7 +2444,7 @@ class STEDReconstructionGUI(QMainWindow):
                             # 将Hessian+TDV减去Background
                             hessian_tdv_minus_background = hessian_tdv_frame - background_frame
                             # 确保没有负值
-                            hessian_tdv_minus_background = np.maximum(hessian_tdv_minus_background, 0)
+                            # hessian_tdv_minus_background = np.maximum(hessian_tdv_minus_background, 0)
                             stack_frames.append(hessian_tdv_minus_background)
                         
                         # 提取Hybrid帧

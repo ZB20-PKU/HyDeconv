@@ -2347,7 +2347,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'FM_emission_NA': {
                 'type': 'float',
-                'default': 5,
+                'default': 8,
                 'tooltip': f'{Microscopy_Type} emission numerical aperture',
                 'unit': ''
             },
