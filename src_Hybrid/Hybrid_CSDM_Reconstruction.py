@@ -1184,7 +1184,7 @@ class STEDReconstructionGUI(QMainWindow):
             },
             'TDV_iteration_number': {
                 'type': 'int',
-                'default': 10,
+                'default': 1,
                 'tooltip': 'Number of TDV iterations'
             }
         }

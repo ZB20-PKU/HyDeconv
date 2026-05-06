@@ -80,9 +80,10 @@ class Hybrid_SIM:
         self.bf_sim = BF_SIM(args, lambda p: progress_callback(p) if progress_callback else None)
         if self._stop_requested:
             return {}
-        
+        # import time
+        # a = time.time()
         args.bf_result = self.bf_sim.recon()
-        
+        # print(time.time()-a)
         if args.Hessian_iteration_number > 0 and not self._stop_requested:
             self.hessian = Hessian_denoise_SIM(args, lambda p: progress_callback(p) if progress_callback else None)
             if self._stop_requested:
@@ -91,7 +92,7 @@ class Hybrid_SIM:
             args.hessian_result = self.hessian.recon()
         else:
             args.hessian_result = args.bf_result
-        
+        # print(time.time()-a)
         if args.TDV_iteration_number > 0 and not self._stop_requested:
             self.tdv = TDV_denoise_SIM(args, lambda p: progress_callback(p) if progress_callback else None)
             if self._stop_requested:
@@ -103,7 +104,7 @@ class Hybrid_SIM:
             args.tdv_result = self.tdv.recon()
         else:
             args.tdv_result = args.hessian_result
-
+        # print(time.time()-a)
         if args.Sparse_iteration_number > 0 and not self._stop_requested:
             self.sparse = Sparse_deconvolution_SIM(args, lambda p: progress_callback(p) if progress_callback else None)
             if self._stop_requested:
@@ -116,7 +117,7 @@ class Hybrid_SIM:
             args.sparse_result = self.sparse.recon()
         else:
             args.sparse_result = args.tdv_result
-
+        # print(time.time()-a)
         # 返回所有结果
         return {
             'bf_result': args.bf_result,
@@ -1168,7 +1169,7 @@ class SIMReconstructionGUI(QMainWindow):
             },
             'SIM_Recon_OTF_path': {
                 'type': 'file',
-                'default': './src_Hybrid/src_Optics/SIM_Recon_OTF_WL525_NA1.4_PSXY43.tif',
+                'default': 'Simulation',
                 'tooltip': 'Path to Wiener OTF TIFF file'
             }
         }
@@ -1225,7 +1226,7 @@ class SIMReconstructionGUI(QMainWindow):
             },
             'TDV_iteration_number': {
                 'type': 'int',
-                'default': 10,
+                'default': 1,
                 'tooltip': 'Number of TDV iterations'
             }
         }
@@ -2657,7 +2658,7 @@ class SIMReconstructionGUI(QMainWindow):
         for key, value in sparse_values.items():
             setattr(self.args, key, value)
     
-    def run_reconstruction(self, checked=False):
+    def run_reconstruction(self):
         """执行重建"""
         try:
             # 收集参数

@@ -2354,7 +2354,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Dataset_XY_block_interval': {
                 'type': 'int',
-                'default': 128,
+                'default': 30,
                 'tooltip': 'XY block interval for dataset generation',
                 'unit': 'pixel'
             },
@@ -2372,7 +2372,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Dataset_XY_minimal_heterogeneity': {
                 'type': 'float',
-                'default': 0.6,
+                'default': 0.01,
                 'tooltip': 'Minimum heterogeneity threshold for XY blocks'
             }
         }
@@ -2398,7 +2398,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Train_epoch_number': {
                 'type': 'int',
-                'default': 50,
+                'default': 100,
                 'tooltip': 'Number of training epochs'
             },
             'Train_learning_rate': {
@@ -2786,7 +2786,7 @@ class TDVTrainingGUI(QMainWindow):
             if filename:
                 # self.status_label.setText(f"Loading parameters from {Path(filename).name}...")
                 # QApplication.processEvents()  # 立即更新UI
-                
+                # print(filename)
                 with open(filename, 'r') as f:
                     params = json.load(f)
                 

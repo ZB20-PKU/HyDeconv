@@ -2373,13 +2373,13 @@ class TDVTrainingGUI(QMainWindow):
             },
             'SIM_Raw_pixel_size': {
                 'type': 'float',
-                'default': 43.33e-9,
+                'default': 43e-9,
                 'tooltip': 'Raw pixel size',
                 'unit': 'nm'
             },
             'SIM_Recon_OTF_path': {
                 'type': 'file',
-                'default': './src_Hybrid/src_Optics/SIM_Recon_OTF_WL525_NA1.4_PSXY43.tif',
+                'default': 'Simulation',
                 'tooltip': 'Path to Wiener OTF TIFF file'
             }
         }
@@ -2414,19 +2414,19 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Dataset_XY_Poisson_noise_level': {
                 'type': 'float',
-                'default': 50,
+                'default': 75,
                 'tooltip': 'Poisson noise level',
                 'unit': ''
             },
             'Dataset_XY_Gaussian_noise_level': {
                 'type': 'float',
-                'default': 50,
+                'default': 75,
                 'tooltip': 'Gaussian noise level',
                 'unit': ''
             },
             'Dataset_XY_minimal_heterogeneity': {
                 'type': 'float',
-                'default': 0.4,
+                'default': 0.01,
                 'tooltip': 'Minimum heterogeneity threshold for XY blocks'
             }
         }
@@ -2452,7 +2452,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Train_epoch_number': {
                 'type': 'int',
-                'default': 50,
+                'default': 100,
                 'tooltip': 'Number of training epochs'
             },
             'Train_learning_rate': {

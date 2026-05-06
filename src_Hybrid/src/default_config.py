@@ -20,7 +20,7 @@ def default_config_Hybrid_SIM():
     parser.add_argument('--SIM_excitation_wavelength', type=float, default=488e-9)    
     parser.add_argument('--SIM_emission_wavelength', type=float, default=525e-9)    
     parser.add_argument('--SIM_Pattern_average_number', type=int, default=50)
-    parser.add_argument('--SIM_Pattern_vector_search_ratio', type=float, default=0.05)
+    parser.add_argument('--SIM_Pattern_vector_search_ratio', type=float, default=0.1)#0.05
     parser.add_argument('--SIM_Pattern_orientation_number', type=int, default=3, help='number of structure illuminaion orientations')
     parser.add_argument('--SIM_Pattern_phase_number', type=int, default=3, help='number of structure illuminaion phases')
     parser.add_argument('--SIM_Pattern_phase_interval', type=list, default=[1, 1, 1])
@@ -96,6 +96,8 @@ def default_config_TDV_SIM_training():
     ##  TDV-DNN training parameters    
     parser.add_argument('--Train_batch_size', type=int, default=10, help='Batch size')
     parser.add_argument('--Train_epoch_number', type=int, default=50, help='Epoch number')
+    parser.add_argument('--Train_samples_per_epoch', type=int, default=50, help='Train samples number per epoch')
+    parser.add_argument('--Val_samples_per_epoch', type=int, default=10, help='Validation samples number per epoch')
     parser.add_argument('--Train_learning_rate', type=float, default=5e-4, help='Learning rate')
     parser.add_argument('--Train_learning_rate_decay_ratio', type=float, default=0.9, help='Learning rate decay ratio')
     parser.add_argument('--Train_learning_rate_minimum', type=float, default=1e-6, help='Learning rate minimum')
@@ -105,6 +107,8 @@ def default_config_TDV_SIM_training():
     parser.add_argument('--Train_sample', type=str, default='Actin', help='Sample name')
     parser.add_argument('--Train_system', type=str, default='100XSIM', help='System name')
     parser.add_argument('--TDV_mode', type=str, default='train', help='DNN mode')
+    parser.add_argument('--TDV_iteration_num', type=int, default=1, help='TDV iteration number')
+    parser.add_argument('--TDV_block_num', type=int, default=3, help='TDV block number')
     ##
     args = parser.parse_args()
     return args
@@ -168,15 +172,19 @@ def default_config_TDV_FM_training():
     ##  TDV-DNN training parameters    
     parser.add_argument('--Train_batch_size', type=int, default=10, help='Batch size')
     parser.add_argument('--Train_epoch_number', type=int, default=50, help='Epoch number')
+    parser.add_argument('--Train_samples_per_epoch', type=int, default=50, help='Train samples number per epoch')
+    parser.add_argument('--Val_samples_per_epoch', type=int, default=10, help='Validation samples number per epoch')
     parser.add_argument('--Train_learning_rate', type=float, default=5e-4, help='Learning rate')
     parser.add_argument('--Train_learning_rate_decay_ratio', type=float, default=0.9, help='Learning rate decay ratio')
     parser.add_argument('--Train_learning_rate_minimum', type=float, default=1e-6, help='Learning rate minimum')
     parser.add_argument('--Train_abnormal_factor', type=float, default=1e10, help='Skip threshold (mean + factor*std) for abnormal samples')
     parser.add_argument('--Train_SSIM_MSE_ratio', type=float, default=0.2, help='SSIM/MSE ratio for loss function')
-    parser.add_argument('--Train_Max_reinitialization_number', type=int, default=5, help='Max reinitialization number')
+    parser.add_argument('--Train_Max_reinitialization_number', type=int, default=5, help='Max reinitialization number')    
     parser.add_argument('--Train_sample', type=str, default='Actin', help='Sample name')
     parser.add_argument('--Train_system', type=str, default='FM', help='System name')
     parser.add_argument('--TDV_mode', type=str, default='train', help='DNN mode')
+    parser.add_argument('--TDV_iteration_num', type=int, default=1, help='TDV iteration number')
+    parser.add_argument('--TDV_block_num', type=int, default=3, help='TDV block number')
     ##
     args = parser.parse_args()
     return args
@@ -251,15 +259,19 @@ def default_config_TDV_WFM_training():
     ##  TDV-DNN training parameters    
     parser.add_argument('--Train_batch_size', type=int, default=10, help='Batch size')
     parser.add_argument('--Train_epoch_number', type=int, default=50, help='Epoch number')
+    parser.add_argument('--Train_samples_per_epoch', type=int, default=50, help='Train samples number per epoch')
+    parser.add_argument('--Val_samples_per_epoch', type=int, default=10, help='Validation samples number per epoch')
     parser.add_argument('--Train_learning_rate', type=float, default=5e-4, help='Learning rate')
     parser.add_argument('--Train_learning_rate_decay_ratio', type=float, default=0.9, help='Learning rate decay ratio')
     parser.add_argument('--Train_learning_rate_minimum', type=float, default=1e-6, help='Learning rate minimum')
     parser.add_argument('--Train_abnormal_factor', type=float, default=1e10, help='Skip threshold (mean + factor*std) for abnormal samples')
     parser.add_argument('--Train_SSIM_MSE_ratio', type=float, default=0.2, help='SSIM/MSE ratio for loss function')
-    parser.add_argument('--Train_Max_reinitialization_number', type=int, default=5, help='Max reinitialization number')
+    parser.add_argument('--Train_Max_reinitialization_number', type=int, default=5, help='Max reinitialization number')    
     parser.add_argument('--Train_sample', type=str, default='Actin', help='Sample name')
     parser.add_argument('--Train_system', type=str, default='FM', help='System name')
     parser.add_argument('--TDV_mode', type=str, default='train', help='DNN mode')
+    parser.add_argument('--TDV_iteration_num', type=int, default=1, help='TDV iteration number')
+    parser.add_argument('--TDV_block_num', type=int, default=3, help='TDV block number')
     ##
     args = parser.parse_args()
     return args

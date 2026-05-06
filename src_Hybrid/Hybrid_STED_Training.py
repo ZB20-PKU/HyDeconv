@@ -2383,25 +2383,25 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Dataset_XY_block_interval': {
                 'type': 'int',
-                'default': 64,
+                'default': 32,
                 'tooltip': 'XY block interval for dataset generation',
                 'unit': 'pixel'
             },
             'Dataset_XY_Poisson_noise_level': {
                 'type': 'float',
-                'default': 300,
+                'default': 100,
                 'tooltip': 'Poisson noise level',
                 'unit': ''
             },
             'Dataset_XY_Gaussian_noise_level': {
                 'type': 'float',
-                'default': 300,
+                'default': 100,
                 'tooltip': 'Gaussian_noise_level',
                 'unit': ''
             },
             'Dataset_XY_minimal_heterogeneity': {
                 'type': 'float',
-                'default': 0.6,
+                'default': 0.01,
                 'tooltip': 'Minimum heterogeneity threshold for XY blocks'
             }
         }
@@ -2427,7 +2427,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Train_epoch_number': {
                 'type': 'int',
-                'default': 50,
+                'default': 100,
                 'tooltip': 'Number of training epochs'
             },
             'Train_learning_rate': {

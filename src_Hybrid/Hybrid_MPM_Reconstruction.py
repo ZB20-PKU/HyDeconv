@@ -1165,7 +1165,7 @@ class STEDReconstructionGUI(QMainWindow):
             },
             'TDV_fidelity': {
                 'type': 'float',
-                'default': 100,
+                'default': 70,
                 'tooltip': 'TDV fidelity parameter',
                 'unit': ''
             },
@@ -1183,7 +1183,7 @@ class STEDReconstructionGUI(QMainWindow):
             },
             'TDV_iteration_number': {
                 'type': 'int',
-                'default': 10,
+                'default': 1,
                 'tooltip': 'Number of TDV iterations'
             }
         }

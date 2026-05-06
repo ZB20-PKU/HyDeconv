@@ -2382,7 +2382,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Dataset_XY_minimal_heterogeneity': {
                 'type': 'float',
-                'default': 0.1,
+                'default': 0.01,
                 'tooltip': 'Minimum heterogeneity threshold for XY blocks'
             }
         }
@@ -2408,7 +2408,7 @@ class TDVTrainingGUI(QMainWindow):
             },
             'Train_epoch_number': {
                 'type': 'int',
-                'default': 50,
+                'default': 100,
                 'tooltip': 'Number of training epochs'
             },
             'Train_learning_rate': {
