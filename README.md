@@ -1,4 +1,4 @@
-# HyDeconv: Hybrid Deconvolution Software
+# HyDeconv: Hybrid Deconvolution
 
 A comprehensive software with an intuitive graphical user interface (GUI) for the resolution enhancement of multiple fluorescence microscopy modalities, including Structured Illumination Microscopy (SIM), Stimulated Emission Depletion microscopy (STED), Multiphoton Microscopy (MPM), Confocal Spinning Disk Microscopy (CSDM), and Wide-Field Microscopy (WFM). 
 
