@@ -57,11 +57,11 @@ HyDeconv/
 ├── requirements.txt
 ├── Launch.py
 ├── src_Hybrid/
-├── Demo_training_SIM/       # Extracted folder from `Demo_training.zip`
-├── Demo_training_STED/      # Extracted folder from `Demo_training.zip`
-├── Demo_training_MPM/       # Extracted folder from `Demo_training.zip`
-├── Demo_training_CSDM/      # Extracted folder from `Demo_training.zip`
-├── Demo_training_WFM/       # Extracted folder from `Demo_training.zip`
+├── Demo_training_SIM/       # Extracted folder from `Demo_Train.zip`
+├── Demo_training_STED/      # Extracted folder from `Demo_Train.zip`
+├── Demo_training_MPM/       # Extracted folder from `Demo_Train.zip`
+├── Demo_training_CSDM/      # Extracted folder from `Demo_Train.zip`
+├── Demo_training_WFM/       # Extracted folder from `Demo_Train.zip`
 ├── Demo_Recon_SIM.tif       # Extracted file from `Demo_Recon.zip`
 ├── Demo_Recon_STED.tif      # Extracted file from `Demo_Recon.zip`
 ├── Demo_Recon_MPM.tif       # Extracted file from `Demo_Recon.zip`
