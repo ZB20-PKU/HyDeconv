@@ -9,7 +9,7 @@ This repository contains the core source code, pre-trained models, and launch sc
 *   **`HyDeconv_Handbook.pdf`**: Complete handbook with detailed operation and configuration instructions.
 *   **`/src_Hybrid/`**: Core source code directory containing all Python (`.py`) and compiled module (`.pyd`) files.
 *   **`/src_Hybrid/src_model/`**: Pre-trained deep learning model files (`.pth`) for different microscopy modalities.
-*   **`Launch.py`**: The main script to launch the software graphical user interface (GUI).
+*   **`Launch.py`**: The main script to launch the software GUI.
 *   **`requirements.txt`**: A list of required Python packages.
 
 ## ⚡ Quick Start Guide
