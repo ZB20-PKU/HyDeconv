@@ -44,7 +44,7 @@ conda install cudatoolkit=11.6 -c conda-forge
 ### 4. Download Demonstration Data
 The software requires specific training and reconstruction data to function:
 
-Download the `.zip` files from [https://figshare.com/s/c8a4244a7ebdb0ffd10c](https://figshare.com/s/c8a4244a7ebdb0ffd10c).
+Download the `.zip` files from [https://figshare.com/s/493eb7e7b99e31b559c5](https://figshare.com/s/493eb7e7b99e31b559c5).
 
 Extract them into the software root directory.
 
